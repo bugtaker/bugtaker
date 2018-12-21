@@ -1,0 +1,31 @@
+{
+  "name": "bugtaker",
+  "version": "1.0.0",
+  "description": "A personal card for Bugtaker (@bugtaker)",
+  "main": "bin/card.js",
+  "scripts": {
+    "test": "echo \"Hello Bugtaker\""
+  },
+  "bin": {
+    "bugtaker": "./bin/card.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bugtaker/bugtaker.git"
+  },
+  "keywords": [
+    "personal",
+    "card",
+    "bugtaker"
+  ],
+  "author": "bugtaker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bugtaker/bugtaker/issues"
+  },
+  "homepage": "https://github.com/bugtaker/bugtaker#readme",
+  "dependencies": {
+    "boxen": "^2.1.0",
+    "chalk": "^2.4.1"
+  }
+}
